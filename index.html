@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rinha de Frontend by Gilson Terra</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <section id="container-upload">
+      <h1 class="title">JSON Tree Viewer</h1>
+      <span class="subtitle"
+        >Simple JSON Viewer that runs completely on-client. No data exchange
+      </span>
+      <div>
+        <label for="btn-load" class="btn-load">Load JSON</label>
+        <input type="file" name="btn-load" id="btn-load" accept=".json" />
+      </div>
+      <label id="msg-error"></label>
+    </section>
+
+    <section id="container-viewer">
+      <h1 class="title"></h1>
+      <ul id="treeviewer"></ul>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
